@@ -140,8 +140,6 @@ export const portfolioConfig = {
       visualType: "Product Mockup (Based on Deployed App UI)",
       liveUrl: "https://gatherly-green.vercel.app/",
       isLivePlaceholder: false,
-      sourceUrl: "https://github.com/AniketOfficial26/gatherly",
-      isSourcePlaceholder: true,
       contextTag: "Live Deployed Platform",
       keyHighlights: [
         "Live deployment accessible on Vercel with responsive desktop and mobile support",
@@ -161,8 +159,8 @@ export const portfolioConfig = {
       image: finsathiCover,
       visualType: "Concept UI Mockup",
       liveUrl: undefined,
-      sourceUrl: "https://github.com/AniketOfficial26/finsathi",
-      isSourcePlaceholder: true,
+      sourceUrl: "https://github.com/AniketOfficial26/FinSathi",
+      isSourcePlaceholder: false,
       contextTag: "Exploratory Prototype",
       keyHighlights: [
         "Structured data models for tracking transactional behaviors across expenditure categories",
@@ -182,8 +180,8 @@ export const portfolioConfig = {
       image: foodswapCover,
       visualType: "Product Mockup (Based on Flutter App UI)",
       liveUrl: undefined,
-      sourceUrl: "https://github.com/AniketOfficial26/foodswap",
-      isSourcePlaceholder: true,
+      sourceUrl: "https://github.com/AniketOfficial26/food-swap-flutter/blob/main/food_swap/README.md",
+      isSourcePlaceholder: false,
       contextTag: "App Architecture & Scoring Engine",
       keyHighlights: [
         "Custom nutritional scoring model weighing macronutrients, sodium, sugars, and additives",
@@ -203,8 +201,8 @@ export const portfolioConfig = {
       image: doodleRecognizerCover,
       visualType: "ML Interface Mockup (Based on Project UI)",
       liveUrl: undefined,
-      sourceUrl: "https://github.com/AniketOfficial26/doodle-recognizer",
-      isSourcePlaceholder: true,
+      sourceUrl: "https://github.com/AniketOfficial26/Doodle-Recognizer/blob/main/README.md",
+      isSourcePlaceholder: false,
       contextTag: "Persistent Systems Internship",
       keyHighlights: [
         "Trained on subsets of the massive 50-million-drawing Quick, Draw! benchmark dataset",
@@ -245,8 +243,6 @@ export const portfolioConfig = {
       image: airQualityCover,
       visualType: "Sensor Lab Prototype Visual",
       liveUrl: undefined,
-      sourceUrl: "https://github.com/AniketOfficial26/air-quality-arduino",
-      isSourcePlaceholder: true,
       contextTag: "Hardware Electronics Project",
       keyHighlights: [
         "Programmed Arduino microcontroller logic to sample sensor pins and filter signal noise",
