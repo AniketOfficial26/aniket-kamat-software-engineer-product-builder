@@ -10,6 +10,13 @@
  *   as documented in the `contactProviderConfig` section below.
  */
 
+import airQualityCover from './assets/images/air_quality_sensor_cover_1791962467035.jpg';
+import doodleRecognizerCover from './assets/images/doodle_recognizer_cover_1791962465924.jpg';
+import dspAudioHardwareCover from './assets/images/dsp_audio_hardware_1791960598411.jpg';
+import finsathiCover from './assets/images/finsathi_finance_cover_1791962467154.jpg';
+import foodswapCover from './assets/images/foodswap_cover_1791962434327.jpg';
+import gatherlyCover from './assets/images/gatherly_cover_1791962434196.jpg';
+
 export interface Project {
   id: string;
   title: string;
@@ -129,7 +136,7 @@ export const portfolioConfig = {
       shortDescription: "Deployed collaborative platform designed for seamless group coordination and interaction.",
       fullDescription: "Gatherly is a modern, deployed web platform crafted to streamline collaborative interaction. Built and deployed live to production on Vercel, it demonstrates end-to-end full-stack web architecture, responsive interface design, and client-server state coordination.",
       technologies: ["React", "TypeScript", "Web Standards", "Vercel Deployment"],
-      image: "/src/assets/images/gatherly_cover_1791962434196.jpg",
+      image: gatherlyCover,
       visualType: "Product Mockup (Based on Deployed App UI)",
       liveUrl: "https://gatherly-green.vercel.app/",
       isLivePlaceholder: false,
@@ -151,7 +158,7 @@ export const portfolioConfig = {
       shortDescription: "React Native application exploring spending-pattern analysis and financial-stress prediction.",
       fullDescription: "FinSathi is a cross-platform mobile application concept built with React Native and TypeScript. It investigates algorithmic categorization of user spending habits and analyzes how financial volatility correlates with stress signals.",
       technologies: ["React Native", "TypeScript", "Data Analysis", "Mobile UI"],
-      image: "/src/assets/images/finsathi_finance_cover_1791962467154.jpg",
+      image: finsathiCover,
       visualType: "Concept UI Mockup",
       liveUrl: undefined,
       sourceUrl: "https://github.com/AniketOfficial26/finsathi",
@@ -172,7 +179,7 @@ export const portfolioConfig = {
       shortDescription: "Flutter application concept comparing packaged foods using Open Food Facts and nutrition data.",
       fullDescription: "FoodSwap is a mobile application concept developed with Flutter and Dart. It empowers consumers to make informed dietary choices by scanning or looking up packaged food products, pulling real-time nutritional disclosures from the Open Food Facts open database, and executing comparative recommendation algorithms.",
       technologies: ["Flutter", "Dart", "Open Food Facts API", "Nutrition Algorithms"],
-      image: "/src/assets/images/foodswap_cover_1791962434327.jpg",
+      image: foodswapCover,
       visualType: "Product Mockup (Based on Flutter App UI)",
       liveUrl: undefined,
       sourceUrl: "https://github.com/AniketOfficial26/foodswap",
@@ -193,7 +200,7 @@ export const portfolioConfig = {
       shortDescription: "Real-time drawing classification ML project built during internship at Persistent Systems.",
       fullDescription: "Developed during a selective two-month engineering internship at Persistent Systems. The project focuses on computer vision and convolutional neural networks trained on Google's Quick, Draw! dataset, enabling real-time recognition of freehand sketch vectors and pixel representations.",
       technologies: ["Python", "TensorFlow / Keras", "Google Colab", "Quick, Draw! Dataset", "CNN"],
-      image: "/src/assets/images/doodle_recognizer_cover_1791962465924.jpg",
+      image: doodleRecognizerCover,
       visualType: "ML Interface Mockup (Based on Project UI)",
       liveUrl: undefined,
       sourceUrl: "https://github.com/AniketOfficial26/doodle-recognizer",
@@ -214,7 +221,7 @@ export const portfolioConfig = {
       shortDescription: "Final-year engineering project investigating AI sound classification and active noise cancellation.",
       fullDescription: "A comprehensive final-year engineering project bridging embedded hardware and audio intelligence. Built around a Raspberry Pi core and microphone arrays, this project explores acoustic sound classification to identify unwanted environmental noises and examine Active Noise Cancellation (ANC) phase-inversion algorithms.",
       technologies: ["Raspberry Pi", "Embedded C / Python", "MEMS Microphones", "Audio DSP", "Sound Classification"],
-      image: "/src/assets/images/dsp_audio_hardware_1791960598411.jpg",
+      image: dspAudioHardwareCover,
       visualType: "Engineering Workbench Visual",
       liveUrl: undefined,
       sourceUrl: "https://github.com/AniketOfficial26/anc-device-prototype",
@@ -235,7 +242,7 @@ export const portfolioConfig = {
       shortDescription: "Arduino-based environmental station measuring real-time atmospheric quality indicators.",
       fullDescription: "An embedded systems project engineered around an Arduino microcontroller and dedicated gas/particulate sensors. It reads analog and digital sensor telemetry to track ambient air quality metrics and output timely indicators.",
       technologies: ["Arduino", "Embedded C/C++", "Gas & Particulate Sensors", "Hardware Prototyping"],
-      image: "/src/assets/images/air_quality_sensor_cover_1791962467035.jpg",
+      image: airQualityCover,
       visualType: "Sensor Lab Prototype Visual",
       liveUrl: undefined,
       sourceUrl: "https://github.com/AniketOfficial26/air-quality-arduino",
