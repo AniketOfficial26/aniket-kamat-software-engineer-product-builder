@@ -10,7 +10,6 @@ import {
   Linkedin, 
   FileText, 
   ExternalLink,
-  Settings2,
   CheckCircle2
 } from 'lucide-react';
 
@@ -259,25 +258,6 @@ export const Contact: React.FC<ContactProps> = ({ onOpenGuide }) => {
                   </a>
                 )}
               </div>
-            </div>
-
-            {/* Provider Setup Documentation Trigger */}
-            <div className="p-5 rounded-2xl bg-zinc-950 border border-white/10 flex items-start justify-between gap-4">
-              <div>
-                <h4 className="text-xs font-semibold text-white mb-1 flex items-center gap-2">
-                  <Settings2 className="w-3.5 h-3.5 text-[#BEF264]" />
-                  <span>Configuring Form Delivery</span>
-                </h4>
-                <p className="text-xs text-zinc-400 leading-relaxed">
-                  Need automatic form routing without opening a mail client? Follow the Formspree or Resend integration guide.
-                </p>
-              </div>
-              <button
-                onClick={onOpenGuide}
-                className="shrink-0 px-3 py-1.5 text-xs font-medium text-white bg-zinc-800 hover:bg-zinc-700 rounded-lg transition-colors border border-white/10"
-              >
-                View Docs
-              </button>
             </div>
 
           </div>
