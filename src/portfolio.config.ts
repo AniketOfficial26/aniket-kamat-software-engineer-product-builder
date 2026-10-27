@@ -53,7 +53,7 @@ export const portfolioConfig = {
     fullName: "Aniket Kamat",
     roleTitle: "Software Engineer & Builder",
     education: "Electronics and Computer Engineering Graduate",
-    heroHeadline: "I build software that solves real problems.",
+    heroHeadline: "Curious by nature. An engineer by practice.",
     heroSupportingText: "Electronics and Computer Engineering graduate exploring the intersection of software engineering, applied AI, and thoughtful product design.",
     focusPhilosophy: "Creating useful, thoughtful software that connects technology with practical human needs.",
     
